@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# generated feature tables - rebuild with build_features.py + add_features.py
+data/*.pkl
+data/*.npz
+data/*.npy
+
+# raw competition data is not redistributable
+data/*_videos.csv
+data/engagement_daily.csv
+data/creators_daily.csv
